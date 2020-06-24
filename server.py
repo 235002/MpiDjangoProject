@@ -32,6 +32,7 @@ while inputs:
 
     if not (readable or writeable or exceptional):
         print('Timed out, do some other work here.')
+        print(readable, writeable, exceptional)
         continue
 
     # Handle inputs
